@@ -1,0 +1,34 @@
+= Kubernetes Operator in Go in One Hour
+Viktor Gamov <viktor@confluent.io>, Anton Arhipov <ant.arhipov@gmail.com>
+2018-09-07
+:revdate: 2018-09-07 14:20:14 -0600
+:linkattrs:
+:ast: &ast;
+:y: &#10003;
+:n: &#10008;
+:y: icon:check-sign[role="green"]
+:n: icon:check-minus[role="red"]
+:c: icon:file-text-alt[role="blue"]
+:toc: auto
+:toc-placement: auto
+:toc-position: right
+:toc-title: Table of content
+:toclevels: 3
+:idprefix:
+:idseparator: -
+:sectanchors:
+:icons: font
+:source-highlighter: highlight.js
+:highlightjs-theme: idea
+:experimental:
+
+Kubernetes Operator in Go in One Hour
+
+toc::[]
+
+Deploying and operating complex applications is not always trivial with standard Kubernetes tools. 
+Kubernetes deployments can handle the situation when an application may need the least number of instances. 
+But for more-complex scenarios, autoscaling, and reconfiguration, we need the ability to react to these events and perform necessary actions. 
+Carrying out this task by implementing scripts with command-line tools can get cumbersome, especially as we get closer to real-life use cases in which we have to deal with resilience, log collection, and monitoring. 
+This session takes a look at the Kubernetes Operator SDK and shows how to write an operator in Go. 
+The operator will enable seamless monitoring of Java applications running in containers.
